@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+		<title>Home</title>
+        <home_cat1>Download</home_cat1>
+        <home_cat2>Status</home_cat2>
+        <home_cat3>Support</home_cat3>
+		<home_cat1_h>DOWNLOAD LOADER</home_cat1_h>
+        <home_cat2_h>STATUS OF SERVICES</home_cat2_h>
+        <home_cat3_h>DISCORD</home_cat3_h>
+		<home_cat1_text1>You can download the Loader below, thanks to your login and your subscription V.I.P, you will be able to cheat without limit with EpicAim</home_cat1_text1>
+		<home_cat2_text_status>Server status : </home_cat2_text_status>
+		<home_cat2_text_status_state>Online</home_cat2_text_status_state>
+		<home_cat2_text_vip>VIP left :</home_cat2_text_vip>
+		<home_cat2_text_vac>VAC status</home_cat2_text_vac>
+		<home_cat2_text_vac_state>UNDETECTED</home_cat2_text_vac_state>
+		<home_cat3_text1>If you need any help, you can contact us on our discord, people with red name (Owner) Can help you.</home_cat3_text1>
+		<home_cat3_button>Our Discord</home_cat3_button>
+		<home_cat2_text_free_vip>Free</home_cat2_text_free_vip>
+		<home_cat1_text1_free_vip>With this version of EpicAim, you can have a test of what we offer. However, this version is limited.</home_cat1_text1_free_vip>
+	</view>
+    <controller></controller>
+</translate>

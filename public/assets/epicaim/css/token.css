@@ -1,0 +1,55 @@
+hr {
+	border-top: 1px solid #ba2323;
+}
+
+.top-line {
+	margin-top: 25px;
+}
+
+.top {
+	padding-bottom: 40px;
+}
+
+.top-brand {
+	margin-left: -20px;
+}
+
+.login-container {
+	padding-top: 80px;
+}
+
+.bottom {
+	background-color: #ba2323;
+	border-top: 1px solid #ba2323;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 8px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+	.top-line {
+		display: none;
+	}
+	
+	.top {
+		padding-bottom: 10px;
+	}
+	
+	.top-brand {
+		margin-left: -20px;
+	}
+	
+	.login-container {
+		padding-top: 20px;
+	}
+	
+	.bottom {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

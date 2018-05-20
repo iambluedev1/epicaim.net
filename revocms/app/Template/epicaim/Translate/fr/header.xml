@@ -1,0 +1,13 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <template>
+        <links>
+            <account>Mon compte</account>
+            <logout>Se déconnecter</logout>
+            <home>Accueil</home>
+            <shop>Boutique</shop>
+            <token>Token</token>
+            <support>Support</support>
+        </links>
+    </template>
+</translate>

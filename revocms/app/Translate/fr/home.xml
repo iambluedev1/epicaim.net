@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+		<title>Accueil</title>
+        <home_cat1>Téléchargement</home_cat1>
+        <home_cat2>Status</home_cat2>
+        <home_cat3>Support</home_cat3>
+		<home_cat1_h>TELECHARGEMENT LOADER</home_cat1_h>
+        <home_cat2_h>STATUS DES SERVICES</home_cat2_h>
+        <home_cat3_h>DISCORD</home_cat3_h>
+		<home_cat1_text1>Vous pouvez télécharger le Loader ci-dessous, grâce à vos identifiant ainsi que votre souscription V.I.P, vous pourrez tricher sans limite avec EpicAim</home_cat1_text1>
+		<home_cat2_text_status>Status de nos serveurs : </home_cat2_text_status>
+		<home_cat2_text_status_state>En ligne</home_cat2_text_status_state>
+		<home_cat2_text_vip>Temps de VIP restant :</home_cat2_text_vip>
+		<home_cat2_text_vac>Status de la detection VAC</home_cat2_text_vac>
+		<home_cat2_text_vac_state>OK</home_cat2_text_vac_state>
+		<home_cat3_text1>Si vous avz besoin d'aide, vous pouvez contacter un Aministrateur sur Discord, celui-ci pourra vous aider.</home_cat3_text1>
+		<home_cat3_button>Notre discord</home_cat3_button>
+		<home_cat2_text_free_vip>Gratuit</home_cat2_text_free_vip>
+		<home_cat1_text1_free_vip>Avec cette version d'essai de EpicAim, vous pourrez avoir un avant gout de ce que nous proposons. Cette version est néanmoins limitée.</home_cat1_text1_free_vip>
+	</view>
+    <controller></controller>
+</translate>

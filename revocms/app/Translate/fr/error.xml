@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+        <title>Erreur 404</title>
+        <error>Vous êtes actuellement sur une page d'erreur, merci de contacter un administrateur sur discord afin de résoudre ce problème.</error>
+	</view>
+    <controller></controller>
+</translate>

@@ -1,0 +1,1 @@
+{"config_\/var\/www\/html\/vincentlop.fr\/pedo\/revocms\/config\/database.ini":{"time":1524860880,"expire":300,"data":"a:6:{s:7:\"DB_HOST\";s:9:\"localhost\";s:7:\"DB_NAME\";s:10:\"iambluedev\";s:7:\"DB_USER\";s:10:\"iambluedev\";s:7:\"DB_PASS\";s:8:\"8AV7v4qd\";s:9:\"DB_PREFIX\";s:5:\"rcms_\";s:7:\"DB_TYPE\";s:5:\"mysql\";}"}}

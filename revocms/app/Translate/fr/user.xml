@@ -1,0 +1,158 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+		<account>
+			<title>Mon compte</title>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>Mon compte</account>
+					<logs>Logs de connexion</logs>
+					<logout>Se deconnecter</logout>
+					<tokens>Historique des tokens</tokens>
+				</links>
+			</actions>
+			<password>
+				<title>CHANGER DE MOT DE PASSE</title>
+				<password_old>Mot de passe actuel</password_old>
+				<password_new_1>Nouveau Mot de passe</password_new_1>
+				<password_new_2>Confirmation</password_new_2>
+				<update>Mettre à jour</update>
+				<password_info>Pour des raisons de sécurité, vous devez indiquer votre mot de passe actuel avant de pouvoir le changer.</password_info>
+			</password>
+			<summary>
+				<title>DÉTAILS PERSONNELS</title>
+				<username>Nom d'utilisateur</username>
+				<email>Adresse Email</email>
+				<date>Date de création</date>
+				<ip>Ip</ip>
+				<rank>Rang</rank>
+			</summary>
+		</account>
+		<logs>
+			<main_title>Mon compte</main_title>
+			<sub_title>Dernières connexions</sub_title>
+			<table>
+				<cat_1>Ip</cat_1>
+				<cat_2>Ville</cat_2>
+				<cat_3>Région</cat_3>
+				<cat_4>Pays</cat_4>
+				<cat_5>Navigateur</cat_5>
+				<cat_6>Date</cat_6>
+			</table>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>Mon compte</account>
+					<logs>Logs de connexion</logs>
+					<tokens>Historique des tokens</tokens>
+					<logout>Se deconnecter</logout>
+				</links>
+			</actions>
+		</logs>
+		<tokens>
+			<main_title>Mon compte</main_title>
+			<sub_title>Historique des tokens</sub_title>
+			<table>
+				<cat_1>#</cat_1>
+				<cat_2>Token</cat_2>
+				<cat_3>Adresse ip</cat_3>
+				<cat_4>Date</cat_4>
+			</table>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>Mon compte</account>
+					<logs>Logs de connexion</logs>
+					<tokens>Historique des tokens</tokens>
+					<logout>Se deconnecter</logout>
+				</links>
+			</actions>
+		</tokens>
+		<login>
+			<title>Se connecter</title>
+			<inputs>
+				<input_1>Adresse email ou Nom d'utilisateur</input_1>
+				<input_2>Mot de passe</input_2>
+				<input_3>Se souvenir de moi</input_3>
+			</inputs>
+			<lost_password>Mot de passe oublié ?</lost_password>
+			<btn>Se connecter</btn>
+			<info>Pas encore inscrit ? <![CDATA[<a href="/register">Inscrit toi maintenant !</a>]]></info>
+			<box_title>Qui sommes-nous</box_title>
+		</login>
+		<lost_password>
+			<title>Mot de passe oublié</title>
+			<inputs>
+				<input_1>Nom d'utilisateur</input_1>
+				<input_2>Adresse email</input_2>
+			</inputs>
+			<btn>Envoyer moi un nouveau mot de passe</btn>
+			<info>Déjà inscrit ? <![CDATA[<a href="/login">Connectes toi maintenant !</a>]]></info>
+		</lost_password>
+		<register>
+			<title>S'inscrire</title>
+			<inputs>
+				<input_1>Nom d'utilisateur</input_1>
+				<input_2>Adresse email</input_2>
+				<input_3>Mot de passe</input_3>
+				<input_4>Confirmation</input_4>
+				<input_5>S'inscrie à la Newsletter</input_5>
+			</inputs>
+			<btn>S'inscrire</btn>
+			<info>Déjà inscrit ? <![CDATA[<a href="/login">Connectes toi maintenant !</a>]]></info>
+		</register>
+		<error>Une erreur est survenue. Merci de contacter un Administrateur</error>
+    </view>
+    <controller>
+		<not_allowed>Cette méthode n'est pas autorisée pour cette requête</not_allowed>
+		<error>Une erreur est survenue. Merci de contacter un Administrateur</error>
+		<confirm_account>
+			<bad_url>L'url est invalide !</bad_url>
+			<already_registered>Votre compte est déjà confirmé !</already_registered>
+			<success>Vous pouvez désormais vous connecter à votre compte !</success>
+		</confirm_account>
+		<confirm_redeem>
+			<username_not_in_use>Le nom d'utilisateur n'est pas utilisé</username_not_in_use>
+			<bad_password>Le mot de passe est inccorect</bad_password>
+			<action>Merci de vérifier les champs suivant :</action>
+			<already_confirmed>Vous êtes déjà confirmé !</already_confirmed>
+			<success>L'email a bien été renvoyé ! Cela peut prendre quelque minute. Si le problème persiste veuilliez contacter un Administrateur.</success>
+		</confirm_redeem>
+		<account_update>
+			<connected>Vous devez être connecté !</connected>
+			<bad_actual_password>Merci d'indiquer votre bon ancien mot de passe !</bad_actual_password>
+			<same_password>Votre nouveau mot de passe doit être différent de votre ancien mot de passe.</same_password>
+			<bad_password>Votre nouveau mot de passe et ça confirmation ne sont pas les mêmes.</bad_password>
+			<empty_fields>Merci de remplir tous les champs</empty_fields>
+			<success>Les modifications ont bien été apportées à votre compte !</success>
+			<no_modification>Aucune modification n'a été faite.</no_modification>
+		</account_update>
+		<lost_password>
+			<username_not_in_use>Le nom d'utilisateur n'est pas utilisé</username_not_in_use>
+			<bad_email>L'adresse email est inccorecte</bad_email>
+			<email_not_in_use>L'adresse email n'est pas utilisée</email_not_in_use>
+			<action>Merci de vérifier les champs suivant :</action>
+			<success>Un mot de passe vient de vous être envoyé par email !</success>
+		</lost_password>
+		<login>
+			<username_not_in_use>Le nom d'utilisateur n'est pas utilisé</username_not_in_use>
+			<email_not_in_use>L'adresse email n'est pas utilisée</email_not_in_use>
+			<bad_password>Le mot de passe est inccorect</bad_password>
+			<action>Merci de vérifier les champs suivant :</action>
+			<no_confirmed>Votre compte n'est pas confirmé. Un email vous a été envoyé. <![CDATA[<br> <a href='#' onClick=\"redeem();\">Renvoyer l'email</a>]]></no_confirmed>
+			<success>Vous êtes maintenant connecté ! Vous allez être redirigé dans quelques secondes</success>
+		</login>
+		<register>
+			<username_too_short>Le nom d'utilisateur est trop petit</username_too_short>
+			<username_in_use>Le nom d'utilisateur est déjà utilisé</username_in_use>
+			<bad_email>L'adresse email est inccorecte</bad_email>
+			<email_in_use>L'adresse email est déjà utilisée</email_in_use>
+			<password_too_short>Le mot de passe est trop petit</password_too_short>
+			<bad_password>Votre nouveau mot de passe et ça confirmation ne sont pas les mêmes.</bad_password>
+			<action>Merci de vérifier les champs suivant :</action>
+			<success>Vous êtes désormais inscrit, merci de vous connecter sur la page de connexion </success>
+			<ip_in_use>Le double compte est interdit, vous ne pouvez pas créer plusieurs comptes sur la même ip</ip_in_use>
+		</register>
+	</controller>
+</translate>

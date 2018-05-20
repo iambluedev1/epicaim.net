@@ -1,0 +1,22 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+        <title>Abonnement</title>
+        <cat_1>
+            <title>Validation d'un token</title>
+            <input>Saisir votre token ici</input>
+            <btn>Valider votre token</btn>
+        </cat_1>
+        <cat_2>
+            <title>Vos informations</title>
+        </cat_2>
+        <info>Chaque code n'est valide que pour une utilisation. </info>
+    </view>
+    <controller>
+        <error_0>Cette méthode n'est pas autorisée pour cette requête</error_0>
+        <error_1>Merci d'indiquer un token !</error_1>
+        <error_2>Ce token n'existe pas !</error_2>
+        <error_3>Ce token a déjà été utilisé !</error_3>
+        <success>Welcome in EpicAim familly !</success>
+    </controller>
+</translate>

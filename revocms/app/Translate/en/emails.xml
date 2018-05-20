@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <commons>
+        <heading>Hi %username%,</heading>
+        <ending>Thanks, The Team of EpicAim.net <![CDATA[<br>]]>This is an automated email, please do not respond</ending>
+    </commons>
+    <lost_password>
+        <title>New password</title>
+        <line_1>you have just requested a new password by the form available on our website.</line_1>
+        <line_2>Your new password is <![CDATA[<strong>%password%</strong>]]>, you can change it in the section "My Account"</line_2>
+    </lost_password>
+    <confirmed_account>
+        <title>Your account is now confirmed</title>
+        <line_1>Congratulation, Your account is now confirmed ! You can now use our product.</line_1>
+    </confirmed_account>
+    <confirm_account>
+        <title>Activation of your account</title>
+        <line_1>in order to finalize the activation of your account on <![CDATA[<a style="color: grey;" href="https://epicaim.net">EpicAim.net</a>]]>, please click on the following link :</line_1>
+        <line_2>Click here</line_2>
+        <line_3>or paste the following link into your favorite browser</line_3>
+    </confirm_account>
+    <change_password>
+        <title>Account password changed</title>
+        <line_1>your password has been modified by the form available for this purpose on our site.</line_1>
+        <line_2>If you didn't perform this action, please contact quickly an administrator on our discord's server : https://discordapp.com/invite/BA2s5jY</line_2>
+    </change_password>
+</translate>

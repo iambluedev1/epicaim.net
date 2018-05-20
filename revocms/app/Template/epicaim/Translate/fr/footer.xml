@@ -1,0 +1,6 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <template>
+        <error>Une erreur est survenue. Merci de contacter un Administrateur</error>
+    </template>
+</translate>

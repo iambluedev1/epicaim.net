@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+        <title>Error 404</title>
+        <error>Page not found, the requested page could not be found.</error>
+	</view>
+    <controller></controller>
+</translate>

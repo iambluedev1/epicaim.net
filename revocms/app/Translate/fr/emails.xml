@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <commons>
+        <heading>Bonjour %username%,</heading>
+        <ending>Cordialement, L'équipe de EpicAim.net <![CDATA[<br>]]>Ceci est un mail automatique, merci de ne pas répondre</ending>
+    </commons>
+    <lost_password>
+        <title>Nouveau mot de passe</title>
+        <line_1>vous venez de demander un nouveau mot de passe via le formulaire disponible sur notre site.</line_1>
+        <line_2>Votre nouveau mot de passe est : <![CDATA[<strong>%password%</strong>]]> vous pourrez le changer dans la page "Mon Compte"</line_2>
+    </lost_password>
+    <confirmed_account>
+        <title>Compte confirmée</title>
+        <line_1>votre compte est désormais confirmé !</line_1>
+    </confirmed_account>
+    <confirm_account>
+        <title>Activation de votre compte</title>
+        <line_1>pour finaliser votre inscription sur notre site internet <![CDATA[<a style="color: grey;" href="https://epicaim.net">EpicAim.net</a>]]>, merci de cliquer sur le lien suivant :</line_1>
+        <line_2>Cliquez ici</line_2>
+        <line_3>ou copiez/collez le lien suivant dans votre navigateur :</line_3>
+    </confirm_account>
+    <change_password>
+        <title>Modification mot de passe</title>
+        <line_1>votre mot de passe vient d'être modifié via le formulaire prévu à cet effet sur notre site.</line_1>
+        <line_2>Si vous n'avez pas effectué cette action, merci de contacter un administrateur sur notre discord https://discordapp.com/invite/BA2s5jY</line_2>
+    </change_password>
+</translate>

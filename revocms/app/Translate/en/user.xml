@@ -1,0 +1,158 @@
+<?xml version='1.0' standalone='yes'?>
+<translate>
+    <view>
+		<account>
+			<title>My Account</title>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>My Account</account>
+					<logs>Loggin Logs</logs>
+					<logout>Logout</logout>
+					<tokens>Tokens History</tokens>
+				</links>
+			</actions>
+			<password>
+				<title>CHANGE MY PASSWORD</title>
+				<password_old>Actual password</password_old>
+				<password_new_1>New password</password_new_1>
+				<password_new_2>Confirm password</password_new_2>
+				<update>Update</update>
+				<password_info>For security reason, please specify your actual password</password_info>
+			</password>
+			<summary>
+				<title>PERSONAL DETAILS</title>
+				<username>Username</username>
+				<email>Email</email>
+				<date>Registered At</date>
+				<ip>Ip</ip>
+				<rank>Rank</rank>
+			</summary>
+		</account>
+		<logs>
+			<main_title>My account</main_title>
+			<sub_title>Last connections</sub_title>
+			<table>
+				<cat_1>Ip</cat_1>
+				<cat_2>City</cat_2>
+				<cat_3>Region</cat_3>
+				<cat_4>Country</cat_4>
+				<cat_5>Browser</cat_5>
+				<cat_6>Date</cat_6>
+			</table>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>My account</account>
+					<logs>Loggin Logs</logs>
+					<tokens>Tokens History</tokens>
+					<logout>Logout</logout>
+				</links>
+			</actions>
+		</logs>
+		<tokens>
+			<main_title>My account</main_title>
+			<sub_title>Tokens History</sub_title>
+			<table>
+				<cat_1>#</cat_1>
+				<cat_2>Token</cat_2>
+				<cat_3>Ip</cat_3>
+				<cat_4>Date</cat_4>
+			</table>
+			<actions>
+				<title>Actions</title>
+				<links>
+					<account>My account</account>
+					<logs>Loggin Logs</logs>
+					<logout>Logout</logout>
+					<tokens>Tokens History</tokens>
+				</links>
+			</actions>
+		</tokens>
+		<login>
+			<title>Login</title>
+			<inputs>
+				<input_1>Email or Username</input_1>
+				<input_2>Password</input_2>
+				<input_3>Remember me</input_3>
+			</inputs>
+			<lost_password>Lost password ?</lost_password>
+			<btn>Login</btn>
+			<info>Not registered yet ? <![CDATA[<a href="/register">Join us now !</a>]]></info>
+			<box_title>About us</box_title>
+		</login>
+		<lost_password>
+			<title>Lost password</title>
+			<inputs>
+				<input_1>Username</input_1>
+				<input_2>Email</input_2>
+			</inputs>
+			<btn>Send me a new password</btn>
+			<info>Already registered ? <![CDATA[<a href="/login">Log in now !</a>]]></info>
+		</lost_password>
+		<register>
+			<title>Sign up</title>
+			<inputs>
+				<input_1>Username</input_1>
+				<input_2>Email</input_2>
+				<input_3>Password</input_3>
+				<input_4>Confirm password</input_4>
+				<input_5>Subscribe to the Newsletter</input_5>
+			</inputs>
+			<btn>Sign up</btn>
+			<info>Already registered ? <![CDATA[<a href="/login">Log in now !</a>]]></info>
+		</register>
+		<error>An error occured. Please contact an Administrator</error>
+    </view>
+    <controller>
+		<not_allowed>This method is not allowed for this request</not_allowed>
+		<error>An error occured. Please contact an Administrator</error>
+		<confirm_account>
+			<bad_url>Malformed url</bad_url>
+			<already_registered>Your account is already registerd !</already_registered>
+			<success>You can now loggin into your account !</success>
+		</confirm_account>
+		<confirm_redeem>
+			<username_not_in_use>Username not linked to an account</username_not_in_use>
+			<bad_password>Incorrect password.</bad_password>
+			<action>Please verify the following fields :</action>
+			<already_confirmed>Your account is already confirmed !</already_confirmed>
+			<success>The email has been sent! It can take a few minutses. If the problem persist, please contact an administrator.</success>
+		</confirm_redeem>
+		<account_update>
+			<connected>You must be connected</connected>
+			<bad_actual_password>Please specify your good actual password !</bad_actual_password>
+			<same_password>Your new password must be different to your actual password.</same_password>
+			<bad_password>Your new password and its confirmation are not the same.</bad_password>
+			<empty_fields>Please fill all the fields</empty_fields>
+			<success>The changes have been saved to your account !</success>
+			<no_modification>No changes have been made.</no_modification>
+		</account_update>
+		<lost_password>
+			<username_not_in_use>Username not linked to an account</username_not_in_use>
+			<bad_email>Incorrect email</bad_email>
+			<email_not_in_use>Email not linked to an account</email_not_in_use>
+			<action>Please verify the following fields :</action>
+			<success>A new password has been sent by email !</success>
+		</lost_password>
+		<login>
+			<username_not_in_use>Username not linked to an account</username_not_in_use>
+			<email_not_in_use>Email not linked to an account</email_not_in_use>
+			<bad_password>Incorrect password.</bad_password>
+			<action>Please verify the following fields :</action>
+			<no_confirmed>Your account is not confirmed. An email have been sent to you. <![CDATA[<br> <a href='#' onClick=\"redeem();\">Resend email</a>]]></no_confirmed>
+			<success>You're now connected ! You will be redirected in a few seconds</success>
+		</login>
+		<register>
+			<username_too_short>The username is too short</username_too_short>
+			<username_in_use>Username already linked to an account</username_in_use>
+			<bad_email>Incorrect email</bad_email>
+			<email_in_use>Email already linked to an account</email_in_use>
+			<password_too_short>The password is too short</password_too_short>
+			<bad_password>Your new password and its confirmation are not the same.</bad_password>
+			<action>Please verify the following fields :</action>
+			<success>You're now registered, please to login on our login page</success>
+			<ip_in_use>An account already used your ip, you can't create two accounts on the same ip.</ip_in_use>
+		</register>
+	</controller>
+</translate>
